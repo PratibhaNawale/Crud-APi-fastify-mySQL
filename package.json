@@ -1,0 +1,25 @@
+{
+  "name": "fastify-mysql",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@fastify/cors": "^10.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "fastify": "^5.0.0",
+    "fastify-multipart": "^5.3.1",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.11.3",
+    "twilio": "^5.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.6"
+  }
+}
